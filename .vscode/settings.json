@@ -1,0 +1,70 @@
+{
+    "workbench.colorTheme": "FireFly Pro Bright",
+    "workbench.iconTheme": "quill-icons",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.colorCustomizations": {},
+
+    "editor.wordWrap": "on",
+    "editor.minimap.maxColumn": 70,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.fontSize": 17,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'JetBrains Mono', 'FiraCode Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.tabSize": 2,
+    "editor.smoothScrolling": true,
+    "editor.detectIndentation": true,
+    "editor.suggestSelection": "first",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.linkedEditing": true,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.glyphMargin": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "window.zoomLevel": 0.5, // Зум интерфейса (в т.ч и увеличение шрифтов).
+    "window.density.editorTabHeight": "compact",
+
+    "html.autoClosingTags": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.autoClosingTags": true,
+    "javascript.format.semicolons": "insert",
+    "typescript.autoClosingTags": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.format.semicolons": "insert",
+    "typescript.preferences.quoteStyle": "single",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+
+    "[nginx]": {
+        "editor.defaultFormatter": "raynigon.nginx-formatter"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+
+    "vsicons.presets.foldersAllDefaultIcon": true,
+    "files.trimTrailingWhitespace": true,
+    "explorer.confirmDelete": false
+}
