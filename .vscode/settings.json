@@ -1,36 +1,61 @@
 {
+    /* Appearance */
     "workbench.colorTheme": "FireFly Pro Bright",
-    "workbench.iconTheme": "quill-icons",
+    "workbench.iconTheme": "catppuccin-latte",
     "workbench.productIconTheme": "fluent-icons",
     "workbench.colorCustomizations": {},
-
+    "editor.glyphMargin": false,
+    "window.zoomLevel": 0.85,
+    /* Editor */
     "editor.wordWrap": "on",
     "editor.minimap.maxColumn": 70,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.fontSize": 17,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "'JetBrains Mono', 'FiraCode Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
     "editor.tabSize": 2,
-    "editor.smoothScrolling": true,
     "editor.detectIndentation": true,
-    "editor.suggestSelection": "first",
-    "editor.multiCursorModifier": "ctrlCmd",
     "editor.linkedEditing": true,
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.density.editorTabHeight": "compact",
+    /* Editor.Scroll */
+    "editor.mouseWheelScrollSensitivity": 2.4,
+    "editor.smoothScrolling": true,
+    /* Editor.Font */
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500",
+    "editor.lineHeight": 20,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'JetBrainsMono NF', 'JetBrains Mono', 'FiraCode Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    /* Editor.Suggestions */
+    "editor.suggestSelection": "first",
     "editor.quickSuggestionsDelay": 0,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.glyphMargin": false,
+    /* Editor.Cursor */
     "editor.cursorBlinking": "expand",
     "editor.cursorStyle": "line-thin",
     "editor.cursorSmoothCaretAnimation": "explicit",
-    "editor.gotoLocation.multipleDefinitions": "goto",
-    "window.zoomLevel": 0.5, // Зум интерфейса (в т.ч и увеличение шрифтов).
-    "window.density.editorTabHeight": "compact",
-
+    "editor.multiCursorModifier": "ctrlCmd",
+    /* Formatting */
+    "prettier.semi": true,
+	"prettier.useTabs": false,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.printWidth": 120,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": false,
+    "editor.insertSpaces": false,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+    // Emmet
+	"emmet.includeLanguages": {
+		"blade": "html",
+		"javascript": "javascriptreact"
+	},
+	"emmet.triggerExpansionOnTab": true,
+    /* HTML */
     "html.autoClosingTags": true,
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
-
+    /* JavaScript & TypeScript */
     "javascript.preferences.quoteStyle": "single",
     "javascript.autoClosingTags": true,
     "javascript.format.semicolons": "insert",
@@ -50,7 +75,10 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-
+    /* Other languages */
+    "[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
     "[nginx]": {
         "editor.defaultFormatter": "raynigon.nginx-formatter"
     },
@@ -63,8 +91,9 @@
     "[vue]": {
         "editor.defaultFormatter": "octref.vetur"
     },
-
+    /* Misc */
     "vsicons.presets.foldersAllDefaultIcon": true,
     "files.trimTrailingWhitespace": true,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "vsicons.dontShowNewVersionMessage": true
 }
